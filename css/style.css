@@ -1,0 +1,51 @@
+.hidden{
+    display: none;
+}
+
+.center {
+    width:480px;
+    margin:50px auto;
+  }
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.clock {
+    font-size:xx-large;
+}
+
+.quote {
+    width:480px;
+    margin:50px auto;
+  }
+  .quote blockquote{
+    position:relative;
+    border-left:3px solid #DA8596;
+    padding-left:10px;
+  }
+  .quote blockquote:before{
+    position:absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    content:'Quote';
+    font-size: 15px;
+    color:#DA8596;
+  }
+  .quote blockquote p{
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left:30px;
+    padding-top: 30px;
+  }
+  .quote blockquote cite{
+    display: block;
+    font-size:0.8rem;
+    color: darkslategrey;
+    text-align:right;
+  }
